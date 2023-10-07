@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfolio Website</title>
+
+    <link rel="stylesheet" href="./css/grasyang.css">
+  
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+ 
+</head>
+<body>
+    <style>
+        body {
+          padding: 25px;
+          background-color: white;
+          color: black;
+          font-size: 25px;
+        }
+        
+        .dark-mode {
+          background-color: black;
+          color: white;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h2>Toggle Dark/Light Mode</h2>
+
+        
+        <button onclick="myFunction()">Toggle dark mode</button>
+        
+        <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+        
+        </body>
+        </html>
+
+        
+    <header>
+       
+ 
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+     <img src="pic/logo.png"  class="logo"> 
+    </header>
+  
+ 
+    <section class="home" id="home">
+        
+        <div class="home-img">
+            <img src="pic/prof.jpg" alt="">
+        </div>
+        <div class="home-text">
+           <h3><span></span></h3>
+            <h1>Ruth Grace Monterola Apostol</h1>
+            <h2><span></span> Information Technology student of,
+           university of science and technology of, southern philippines.  </h2>
+           
+        </div>
+ 
+    </section>
+    
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            
+        </div>
+       
+        <div class="about-container">
+            <div class="about-img">
+                <img src="pic/prof1.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <p> MABUHAY! My name is Ruth Grace M. Apostol, and I am 20 years old. I was born on December 21, 2002. I am currently pursuing a Bachelor of Science in Information Technology at USTP-JASAAN campus. 
+
+                    As a third-year student in this field, I am enthusiastic about exploring the world of technology and its endless possibilities. I find joy in discovering new trends and challenges in the IT industry. One of my hobbies that allows me to express my creativity is dancing, particularly TikTok trends. I also have a fondness for drawing, as it helps me relax and unleash my artistic side.
+                    
+                    When it comes to sports, I enjoy playing badminton, volleyball, and basketball. These activities not only promote physical fitness but also encourage teamwork and cooperation. Watching TV is another pastime I indulge in, as it allows me to unwind and catch up on my favorite shows and movies.
+                    
+                    And let's not forget one of my favorite hobbies: eating! Exploring new cuisines and discovering new flavors is something I truly enjoy.
+                    
+                    In the future, I aspire to be a proficient and successful software developer. I am fascinated by the art of coding and problem-solving, and I believe that becoming a software developer will enable me to combine my passion for technology with my love for creativity. I am dedicated to enhancing my skills and knowledge in programming languages and software development methodologies.
+                    
+                    </p>
+                </div>
+                   
+                
+        </div>
+    </section>
+    
+   
+        
+
+    </section>
+
+    <section id="portfolio">
+		<h1 class="heading">Portfolio</h1>
+		<div class="gallery">
+			<img src="pic/5.jpg" alt="">
+			<img src="pic/6.jpg" alt="">
+			<img src="pic/1.jpg" alt="">
+			<img src="pic/4.jpg" alt="">
+			<img src="pic/2.jpg" alt="">
+		</div>
+		
+	</section>
+    
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2 id="Education" >Education</h2>
+           
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-img">
+                <img src="pic/salawagan.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <h1>SCES</h1>
+                <p>School Name: Salawagan Central Elem. School</p>
+				<p>School Address: Salawagan, Quezon,Buk.</p>
+				<p>Year Graduated: 2014-2015</p>
+            </div>
+            <div class="portfolio-img">
+                <img src="pic/jnhs.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <h1>JNHS</h1>
+                <p>School Name: Jasaan National High School</p>
+				<p>School Address: Jasaan Misamis Oriental</p>
+				<p>Year Graduated: 2018-2019</p>
+            </div>
+            <div class="portfolio-img">
+                <img src="pic/moist.jpg" alt="">
+            </div>
+            
+            <div class="portfolio-img">
+                <h1>MOIST</h1>
+                <p>School Name: Misamis Oriental Institue of Science and Technology</p>
+				<p>School Address: Balingasag, Misamis Oriental</p>
+				<p>Year Started: 2019-2021</p>
+		</div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Connect With Us</span>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                <input type="button" value="Send" class="contact-button">
+            </form>
+        </div>
+    </section>
+   
+    <div class="footer">
+        <h2>Other Contact</h2>
+        <div class="footer-social">
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            
+        </div>
+ 
+    </div>
+    
+ 
+   
+    <script src="./js/script.js"></script>
+</body>
+</html>
